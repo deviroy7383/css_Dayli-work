@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Page</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .header {
+        padding-top: 30px;
+        background-image: url("Netflix.jpg");
+        height: 400px;
+        width: 100%;
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+        background-color: aqua;
+        background: linear-gradient(
+            rgba(7, 234, 234, 0.5),
+            rgba(247, 2, 51, 0.7)
+          ),
+          url(Netflix.jpg);
+      }
+      .text {
+        font-size: larger;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: aliceblue;
+      }
+
+      .menu {
+        background-color: rgb(16, 16, 16);
+        text-align: center;
+        padding: 20px;
+      }
+      li {
+        list-style: none;
+        display: inline-block;
+      }
+      a {
+        text-decoration: none;
+        color: aliceblue;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 20px;
+        margin: 30px;
+      }
+      .main-box {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    
+      }
+      
+      .box {
+        
+        margin: 10px;
+        height: 300px;
+        width: 40vh;
+        border: 2px solid black;
+        display: inline-block;
+        text-align: center;
+        background-image: url(Netflix.jpg);
+        color: white;
+      }
+      .main-footer{
+        background-color: black;
+        height: 200px;
+
+      }
+     .main-footer li{
+      display: block;
+      text-decoration:underline;
+      color: white;
+      margin: 10px;
+      padding: 5px;
+      text-align: center;
+      
+     }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About US</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">FAQ</a></li>
+    </div>
+
+    <div class="header">
+      <div class="text">
+        <h1>Netflix</h1>
+      </div>
+    </div>
+    
+   <section>
+      <div class="main-box">
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+        </div>
+        </div>
+      </div>
+ </section>
+
+ <footer>
+ 
+   <div class="main-footer">
+     <li><a href="#">Home</a></li>
+      <li><a href="#">About US</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">FAQ</a></li>
+    </div>
+    
+ </footer>
+  </body>
+</html>
